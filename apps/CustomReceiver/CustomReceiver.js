@@ -17,7 +17,6 @@ class CustomReceiver extends Application {
     static get APP_ID() { return '0AA4CA7E' }
 
     sendMessage(message, callback) {
-        console.log("3")
         this.CustomReceiver.sendMessage.apply(this.CustomReceiver, arguments)
     }
 }

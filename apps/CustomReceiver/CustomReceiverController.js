@@ -61,7 +61,6 @@ class CustomReceiverController extends RequestResponseController {
   }
 
   sendMessage(message, callback) {
-    console.log("4")
     this._controlRequest(message, function (err, response) {
       if (err) callback(err)
 
